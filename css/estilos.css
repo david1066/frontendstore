@@ -1,1 +1,41 @@
-sdf
+html{
+    height: 100%;
+
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+color: white;
+
+     
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#e570e7+0,c85ec7+51,ab49a3+100 */
+background: #e570e7; /* Old browsers */
+background: -moz-linear-gradient(top, #e570e7 0%, #c85ec7 51%, #ab49a3 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #e570e7 0%,#c85ec7 51%,#ab49a3 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #e570e7 0%,#c85ec7 51%,#ab49a3 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e570e7', endColorstr='#ab49a3',GradientType=0 ); /* IE6-9 */
+/**fijo el color**/
+background-attachment: fixed;
+}
+header{
+    text-align: center;
+    padding: 40px 0;
+}
+img{
+    max-width: 100%;
+}
+.contenedor{
+    max-width: 1200px;
+    /*centra la imagen*/
+    margin: 0 auto;
+}
+.hero{
+    margin-bottom: 40px;
+}
+h2{
+    text-align: center;
+    text-transform: uppercase;
+}
+.lista-productos{
+    margin-top: 40px;
+}
