@@ -41,7 +41,7 @@ h2{
 
 }
 .lista-productos{
-    margin-top: 40px;
+  
     padding: 0;
     list-style: none;
 }
@@ -50,6 +50,11 @@ h2{
     width: 50%;
     padding: 20px;
     text-align: center;
+}
+/**2(0) +1**/
+.lista-productos li:nth-child(2n+1){
+    clear: both;
+   
 }
 .lista-productos li img{
 border: 10px solid rgba(128, 1, 195, .45);
@@ -62,4 +67,37 @@ transition: border-color .3s ease-in-out;
     .lista-productos li{
         width: 33.3%;
     }
+    /**2(0) +1**/
+    /**2(0) +1**/
+.lista-productos li:nth-child(2n+1){
+    clear: unset;
+   
+}
+.lista-productos li:nth-child(3n+1){
+    clear: both;
+   
+}
+}
+.lista-productos li p{
+ font-size: 28px;
+ font-weight: bold;
+ margin: 10px 0 0 0;
+}
+span.precio{
+color: #FFCE00;
+font-size: 40px;
+}
+.boton {
+    background-color: #FFCE00;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #8001c3;
+    transition: background-color .3s ease-in-out;
+}
+.boton:hover{
+    background-color: #ebbc00;
 }
